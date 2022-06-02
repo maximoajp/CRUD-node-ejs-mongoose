@@ -8,8 +8,8 @@ router.get('/', function(req, res, next) {
               title: 'Bienvenidos Suscripcion',
               descripcion: 'hola soy la descipcion',
               actividades:[
-                {id:"1", nombre:"Allan", correo: "maximoajp@gmail.com", prioridad:"3", Actividad:"Ir a estudiar"},
-                {id:"1", nombre:"Carlos", correo: "hola@gmail.com", prioridad:"2", Actividad:"Ir a una cita"}
+                {id: '1', nombre: 'Allan', correo: 'maximoajp@gmail.com', prioridad: '1', act: 'Ir a estudiar', estado: '1'},
+                {id: '2', nombre: 'Carlos', correo: 'hola@gmail.com', prioridad: '2', act: 'Ir a una cita', estado: '2' }
               ] 
             });
 });
